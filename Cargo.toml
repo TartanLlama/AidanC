@@ -1,0 +1,15 @@
+[package]
+name = "aidan-c"
+version = "0.1.0"
+authors = ["Simon Brand <simon@codeplay.com>"]
+
+[dependencies]
+itertools="*"
+
+[lib]
+name = "aidan_c"
+path = "src/lib.rs"
+
+[[bin]]
+name = "aidanc"
+path = "src/main.rs"
